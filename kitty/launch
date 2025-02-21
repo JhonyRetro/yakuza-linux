@@ -1,0 +1,9 @@
+kitty @ launch --type=tab --tab-title bash --cwd ~
+kitty @ launch --type=tab --tab-title vim --cwd ~ nvim
+kitty @ launch --type=tab --tab-title taskmgr --cwd ~ btop
+kitty @ focus-tab --match 'title:bash'
+kitty @ focus-tab --match 'title:'
+kitty @ close-tab
+
+kitty @ focus-tab --match 'title:bash'
+

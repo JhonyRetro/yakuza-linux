@@ -1,0 +1,13 @@
+@define-color module-background     rgb(18, 21, 51);
+@define-color font-color            rgb(245, 224, 220);
+@define-color slider-color          rgb(42, 87, 155);
+@define-color active-workspace-font rgb(51, 71, 102);
+@define-color active-workspace      rgb(24, 24, 37);
+@define-color empty-workspace-font  rgb(216, 230, 168);
+@define-color empty-workspace       rgb(59, 72, 92);
+@define-color battery-full          rgb(52, 175, 79);
+@define-color battery-warning       rgb(230, 190, 62);
+@define-color battery-critical      rgb(241, 75, 60);
+@define-color battery-charging      rgb(56, 165, 151);
+@define-color hover-bg              rgb(47, 56, 80);
+@define-color hover-font            rgb(62, 75, 110);

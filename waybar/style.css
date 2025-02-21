@@ -1,0 +1,245 @@
+@import "theme.css";
+
+* {
+	font-family: "Inter Display";
+	font-size: 14px;
+	min-height: 0;
+	padding: 0;
+	border: none;
+	margin: 0;
+}
+
+window#waybar {
+	background: transparent;
+}
+
+tooltip {
+	background: @module-background;
+	border: solid;
+	border-width: 1.5px;
+	border-radius: 8px;
+	border-color: @font-color;
+}
+
+tooltip label {
+	color: @font-color;
+	font-weight: normal;
+	margin: -1.5px 3px;
+}
+
+
+#workspaces {
+	background: @module-background;
+	border-radius: 8px;
+}
+
+#workspaces button {
+	color: @font-color;
+	border-radius: 8px;
+	box-shadow: none;
+	margin: 2px 0;
+	padding: 1px 7px;
+	transition: none;
+}
+
+#workspaces button:hover {
+	color: @hover-font;
+	background: @hover-bg;
+	text-shadow: none;
+	box-shadow: none;
+}
+
+#workspaces button.active {
+	color: @active-workspace-font;
+	background: @active-workspace;
+	text-shadow: 0 0 2px rgba(0, 0, 0, 0.6);
+	box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.4);
+	margin: 2px;
+}
+
+#workspaces button.empty {
+	color: @empty-workspace-font;
+	background: @empty-workspace;
+	box-shadow: none;
+	margin: 2px;
+}
+
+#workspaces button.empty:hover {
+	color: @hover-font;
+	background: @hover-bg;
+	text-shadow: none;
+	box-shadow: none;
+}
+
+#workspaces button.urgent {
+	color: @empty-workspace-font;
+	background: @battery-warning;
+}
+
+#window {
+	color: @font-color;
+	background: @active-workspace;
+	border-radius: 8px;
+	margin: 2px;
+	padding: 3px 3px;
+}
+
+window#waybar.empty {
+	background: transparent;
+}
+
+#power-profiles-daemon {
+	background: @module-background;
+	border-radius: 6px;
+	padding: 6px 12px 6px 6px;
+}
+#power-profiles-daemon:hover {
+	color: @hover-font;
+	background: @hover-bg;
+	text-shadow: none;
+	box-shadow: none;
+}
+
+#clock {
+	background: @module-background;
+	border-radius: 8px;
+	padding: 0 3px 0 4px;
+}
+
+#tray {
+	background: @module-background;
+	border-radius: 6px;
+	padding: 4px 4px;
+}
+
+#network {
+	border-radius: 8px;
+	background: @module-background;
+	padding: 6px 6px;
+}
+
+#network:hover {
+	color: @hover-font;
+	background: @hover-bg;
+	text-shadow: none;
+	box-shadow: none;
+}
+
+#bluetooth {
+	border-radius: 8px;
+	background: @module-background;
+	padding: 6px 6px;
+}
+
+#bluetooth:hover {
+	color: @hover-font;
+	text-shadow: none;
+	box-shadow: none;
+}
+
+#pulseaudio {
+	color: @font-color;
+	background: @module-background;
+	border-radius: 8px;
+	padding: 0 0 0 4px;
+}
+
+#pulseaudio:hover {
+	color: @hover-font;
+	background: @hover-bg;
+	text-shadow: none;
+	box-shadow: none;
+}
+
+#battery {
+	border-radius: 8px;
+	background: @module-background;
+	padding: 4px 2px;
+}
+
+#battery.full {
+	color: @battery-full;
+}
+
+#battery.good {
+	color: @font-color;
+}
+
+#battery.warning {
+	color: @battery-warning;
+}
+
+#battery.critical {
+	color: @battery-critical;
+}
+
+#battery.charging {
+	color: @battery-charging;
+}
+
+#custom-power {
+	color: @font-color;
+	background: @module-background;
+	text-shadow: 0 0 2px rgba(0, 0, 0, 0.6);
+	box-shadow: 1px 0 2px 1px rgba(0, 0, 0, 0.6);
+	border-radius: 10px;
+	margin: 4px 4px 2px 0;
+	padding-right: 6px;
+	padding-left: 9px;
+}
+
+#custom-power:hover {
+	color: @hover-font;
+	background: @hover-bg;
+	text-shadow: none;
+	box-shadow: none;
+}
+
+menu {
+	border-radius: 15px;
+	color: @font-color;
+	background: @module-background;
+}
+
+menuitem {
+	margin: 12px 12px 2px 2px;
+	border-radius: 6px;
+}
+
+#mpris {
+	color: @font-color;
+	background: @module-background;
+	border-radius: 8px;
+	text-shadow: 0 0 2px rgba(0, 0, 0, 0.6);
+	box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.4);
+	margin: 2px;
+	padding: 0 6px;
+}
+#backlight {
+	border-radius: 8px;
+	background: @module-background;
+	padding: 4px 2px;
+}
+#idle_inhibitor {
+	border-radius: 8px;
+	background: @module-background;
+	padding: 4px 2px;
+}
+#idle_inhibitor:hover {
+	color: @hover-font;
+	background: @hover-bg;
+	text-shadow: none;
+	box-shadow: none;
+}
+#custom-notification {
+	border-radius: 8px;
+	background: @module-background;
+	padding: 4px 2px;
+}
+#custom-notification:hover {
+	color: @hover-font;
+	background: @hover-bg;
+	text-shadow: none;
+	box-shadow: none;
+}
+
