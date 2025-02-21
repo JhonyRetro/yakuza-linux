@@ -1,5 +1,8 @@
 ### Yakuza Linux
 ## Yakuza styled ArchLInux dotfiles
+Current looks
+![image](https://github.com/user-attachments/assets/b6762913-7407-4b18-81ec-f07d82ea0206)
+
 These are the configuration files I use for my personal laptop. This repository includes:
 - Configuration files for:
     - Kitty
